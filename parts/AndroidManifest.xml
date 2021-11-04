@@ -41,8 +41,9 @@
         android:label="@string/device_settings_app_name"
         android:persistent="true">
 
-        <receiver android:name=".BootCompletedReceiver">
-            <intent-filter android:priority="1000">
+        <receiver android:name=".BootCompletedReceiver"
+                  android:exported="false">
+            <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
