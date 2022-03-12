@@ -234,10 +234,7 @@ public class RefreshSettingsFragment extends PreferenceFragment
         private final LayoutInflater inflater;
         private final int[] items = {
                 R.string.refresh_default,
-                R.string.refresh_low,
-                R.string.refresh_moderate,
                 R.string.refresh_standard,
-                R.string.refresh_high,
                 R.string.refresh_extreme
         };
 
