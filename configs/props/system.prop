@@ -40,6 +40,10 @@ persist.device_config.runtime_native_boot.iorap_readahead_enable=true
 # Radio
 ril.subscription.types=RUIM
 
+# Render
+debug.cpurend.vsync=false
+
+
 # Recovery
 ro.recovery.ui.margin_height=48
 
