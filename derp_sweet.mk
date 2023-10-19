@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 # Inherit some common Derpfest stuff.
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
+# Derp
+DERP_BUILDTYPE := Official
+
 PRODUCT_NAME := derp_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Xiaomi
