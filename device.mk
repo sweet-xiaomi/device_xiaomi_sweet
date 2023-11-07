@@ -356,7 +356,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.xiaomi-sweet-libperfmgr
+    android.hardware.power-service.sweet-libperfmgr
 
 # Protobuf
 PRODUCT_PACKAGES += \
