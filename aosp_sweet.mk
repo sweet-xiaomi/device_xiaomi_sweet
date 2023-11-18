@@ -11,14 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from sweet device
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
-# Inherit some common Derpfest stuff.
+# Inherit some common HorizonDroid stuff.
 TARGET_SUPPORTS_QUICK_TAP := true
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# Derp
-DERP_BUILDTYPE := Official
+# HorizonDroid
+CUSTOM_BUILD_TYPE := OFFICIAL
 
-PRODUCT_NAME := derp_sweet
+PRODUCT_NAME := aosp_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 10 Pro

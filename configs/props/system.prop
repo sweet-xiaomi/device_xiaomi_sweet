@@ -33,3 +33,6 @@ ro.recovery.ui.margin_height=48
 
 # WiFi
 wifi.interface=wlan0
+
+# Maintainer
+ro.horizon.maintainer=UnmoveD
